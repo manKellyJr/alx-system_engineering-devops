@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{1..z} | grep -v "oo"
+printf "%s\n" {a..z}{1..z} | grep -v "oo"
